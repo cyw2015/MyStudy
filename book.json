@@ -1,0 +1,8 @@
+{
+    "author" : "cyw",
+    "language" : "zh-hans",
+    "plugins": [
+        "splitter",
+        "anchors" 
+    ]
+}
