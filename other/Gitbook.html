@@ -1,0 +1,354 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Gitbook安装使用 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="cyw">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="安装node.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    仓库介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">搜索资料汇总</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="Gitbook.html">
+            
+                <a href="Gitbook.html">
+            
+                    
+                    Gitbook安装使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="安装node.html">
+            
+                <a href="安装node.html">
+            
+                    
+                    安装Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Gitbook安装使用</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6982;&#x8FF0;"><a name="&#x6982;&#x8FF0;" class="plugin-anchor" href="#&#x6982;&#x8FF0;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6982;&#x8FF0;</h1>
+<p>GitBook &#x662F;&#x4F7F;&#x7528; GitHub / Git &#x548C; Markdown&#xFF08;&#x6216;AsciiDoc&#xFF09;&#x6784;&#x5EFA;&#x6F02;&#x4EAE;&#x4E66;&#x7C4D;&#x7684;&#x547D;&#x4EE4;&#x884C;&#x5DE5;&#x5177;&#xFF08;&#x548C;Node.js&#x5E93;&#xFF09;&#x3002;<br>GitBook &#x53EF;&#x4EE5;&#x5C06;&#x60A8;&#x7684;&#x5185;&#x5BB9;&#x4F5C;&#x4E3A;&#x7F51;&#x7AD9;&#xFF08;&#x53EF;&#x5B9A;&#x5236;&#x548C;&#x53EF;&#x6269;&#x5C55;&#xFF09;&#x6216;&#x7535;&#x5B50;&#x4E66;&#xFF08;PDF&#xFF0C;ePub&#x6216;Mobi&#xFF09;&#x8F93;&#x51FA;&#x3002;<br><a href="https://app.gitbook.com/" target="_blank">Gitbook.com</a>&#x662F;&#x4F7F;&#x7528; GitBook &#x683C;&#x5F0F;&#x521B;&#x5EFA;&#x548C;&#x6258;&#x7BA1;&#x56FE;&#x4E66;&#x7684;&#x5728;&#x7EBF;&#x5E73;&#x53F0;&#x3002;&#x5B83;&#x63D0;&#x4F9B;&#x6258;&#x7BA1;&#xFF0C;&#x534F;&#x4F5C;&#x529F;&#x80FD;&#x548C;&#x6613;&#x4E8E;&#x4F7F;&#x7528;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x3002; </p>
+<h1 id="gitbook&#x5728;mac&#x4E0A;&#x7684;&#x5B89;&#x88C5;"><a name="gitbook&#x5728;mac&#x4E0A;&#x7684;&#x5B89;&#x88C5;" class="plugin-anchor" href="#gitbook&#x5728;mac&#x4E0A;&#x7684;&#x5B89;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>GitBook&#x5728;Mac&#x4E0A;&#x7684;&#x5B89;&#x88C5;</h1>
+<h2 id="&#x73AF;&#x5883;&#x8981;&#x6C42;"><a name="&#x73AF;&#x5883;&#x8981;&#x6C42;" class="plugin-anchor" href="#&#x73AF;&#x5883;&#x8981;&#x6C42;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x73AF;&#x5883;&#x8981;&#x6C42;</h2>
+<p>&#x9700;&#x8981;&#x63D0;&#x524D;&#x5B89;&#x88C5;&#x597D;node,npm</p>
+<h2 id="&#x901A;&#x8FC7;npm&#x5B89;&#x88C5;"><a name="&#x901A;&#x8FC7;npm&#x5B89;&#x88C5;" class="plugin-anchor" href="#&#x901A;&#x8FC7;npm&#x5B89;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x901A;&#x8FC7;npm&#x5B89;&#x88C5;</h2>
+<p>&#x53EA;&#x9700;&#x8FD0;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x5373;&#x53EF;&#x5B89;&#x88C5; GitBook</p>
+<pre><code class="lang-shell">npm install gitbook-cli -g
+</code></pre>
+<p>gitbook-cli &#x662F; GitBook &#x7684;&#x4E00;&#x4E2A;&#x547D;&#x4EE4;&#x884C;&#x5DE5;&#x5177;&#x3002;&#x5B83;&#x5C06;&#x81EA;&#x52A8;&#x5B89;&#x88C5;&#x6240;&#x9700;&#x7248;&#x672C;&#x7684; GitBook &#x6765;&#x6784;&#x5EFA;&#x4E00;&#x672C;&#x4E66;&#x3002;<br>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x547D;&#x4EE4;&#xFF0C;&#x67E5;&#x770B; GitBook &#x7248;&#x672C;&#xFF0C;&#x4EE5;&#x9A8C;&#x8BC1;&#x5B89;&#x88C5;&#x6210;&#x529F;&#x3002;</p>
+<pre><code class="lang-shell">gitbook -V
+</code></pre>
+<h1 id="&#x521B;&#x5EFA;&#x4E66;&#x7C4D;"><a name="&#x521B;&#x5EFA;&#x4E66;&#x7C4D;" class="plugin-anchor" href="#&#x521B;&#x5EFA;&#x4E66;&#x7C4D;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x521B;&#x5EFA;&#x4E66;&#x7C4D;</h1>
+<h2 id="&#x521D;&#x59CB;&#x5316;"><a name="&#x521D;&#x59CB;&#x5316;" class="plugin-anchor" href="#&#x521D;&#x59CB;&#x5316;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x521D;&#x59CB;&#x5316;</h2>
+<p>GitBook&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x4E00;&#x4E2A;&#x6837;&#x677F;&#x4E66;&#xFF1A;</p>
+<pre><code class="lang-shell">gitbook init
+</code></pre>
+<h2 id="&#x6784;&#x5EFA;"><a name="&#x6784;&#x5EFA;" class="plugin-anchor" href="#&#x6784;&#x5EFA;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6784;&#x5EFA;</h2>
+<p>&#x4F7F;&#x7528;&#x4E0B;&#x9762;&#x7684;&#x547D;&#x4EE4;&#xFF0C;&#x4F1A;&#x5728;&#x9879;&#x76EE;&#x7684;&#x76EE;&#x5F55;&#x4E0B;&#x751F;&#x6210;&#x4E00;&#x4E2A; _book &#x76EE;&#x5F55;&#xFF0C;&#x91CC;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x4E3A;&#x9759;&#x6001;&#x7AD9;&#x70B9;&#x7684;&#x8D44;&#x6E90;&#x6587;&#x4EF6;&#xFF1A;</p>
+<pre><code class="lang-shell">gitbook build
+</code></pre>
+<h2 id="&#x542F;&#x52A8;&#x670D;&#x52A1;"><a name="&#x542F;&#x52A8;&#x670D;&#x52A1;" class="plugin-anchor" href="#&#x542F;&#x52A8;&#x670D;&#x52A1;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x542F;&#x52A8;&#x670D;&#x52A1;</h2>
+<p>&#x4F7F;&#x7528;&#x4E0B;&#x5217;&#x547D;&#x4EE4;&#x4F1A;&#x8FD0;&#x884C;&#x4E00;&#x4E2A; web &#x670D;&#x52A1;, &#x901A;&#x8FC7; <a href="http://localhost:4000/" target="_blank">http://localhost:4000/</a> &#x53EF;&#x4EE5;&#x9884;&#x89C8;&#x4E66;&#x7C4D;</p>
+<pre><code class="lang-shell">gitbook serve
+</code></pre>
+<h1 id="&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;"><a name="&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;" class="plugin-anchor" href="#&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;</h1>
+<p>&#x6211;&#x672C;&#x5730;node&#x7248;&#x672C;&#x662F;v15.12.0,npm&#x7248;&#x672C;&#x662F;7.6.3&#xFF0C;&#x6267;&#x884C;<code>gitbook -V</code>&#x6216;<code>gitbook init</code> &#x9047;&#x5230;&#x4E86;&#x4E24;&#x4E2A;&#x95EE;&#x9898;</p>
+<h2 id="&#x95EE;&#x9898;1&#xFF1A;"><a name="&#x95EE;&#x9898;1&#xFF1A;" class="plugin-anchor" href="#&#x95EE;&#x9898;1&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x95EE;&#x9898;1&#xFF1A;</h2>
+<pre><code>xcode-select: error: tool &apos;xcodebuild&apos; requires Xcode, but active developer directory 
+&apos;/Library/Developer/CommandLineTools&apos; is a command line tools instance
+</code></pre><p>&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x662F;&#x8868;&#x660E;&#x672C;&#x5730;&#x6CA1;&#x6709;&#x5B89;&#x88C5;Xcode&#xFF0C;&#x53EF;&#x4EE5;&#x5728;AppStore&#x4E2D;&#xFF0C;&#x641C;&#x7D22;Xcode&#x5B89;&#x88C5;&#x3002;<br>&#x5B89;&#x88C5;&#x4E4B;&#x540E;&#x8FD8;&#x662F;&#x4F1A;&#x51FA;&#x73B0;&#x8FD9;&#x4E2A;&#x5F02;&#x5E38;&#xFF0C;&#x9700;&#x8981;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x64CD;&#x4F5C;</p>
+<ol>
+<li>&#x627E;&#x5230;xcode-select&#x7684;&#x5F53;&#x524D;&#x8DEF;&#x5F84;&#x7EC8;&#x7AEF;&#x547D;&#x4EE4;&#x884C;<pre><code class="lang-shell">xcode-select --print-path
+&#x8F93;&#x51FA;&#xFF1A;/Library/Developer/CommandLineTools
+</code></pre>
+</li>
+<li>&#x8BBE;&#x7F6E;xcode-select&#x5230;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;<pre><code class="lang-shell">sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/
+</code></pre>
+</li>
+<li>&#x9A8C;&#x8BC1;&#x662F;&#x5426;&#x8BBE;&#x7F6E;&#x6210;&#x529F;<pre><code class="lang-shell">xcode-select --print-path
+&#x8F93;&#x51FA;: /Applications/Xcode.app/Contents/Developer
+</code></pre>
+</li>
+</ol>
+<h2 id="&#x95EE;&#x9898;2"><a name="&#x95EE;&#x9898;2" class="plugin-anchor" href="#&#x95EE;&#x9898;2"><i class="fa fa-link" aria-hidden="true"></i></a>&#x95EE;&#x9898;2</h2>
+<p>&#x8BE6;&#x7EC6;&#x9519;&#x8BEF;&#x5982;&#x4E0B;:</p>
+<pre><code class="lang-shell">/data/soft/nodejs/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js:287
+      if (cb) cb.apply(this, arguments)
+
+TypeError: cb.apply is not a function
+    at /data/soft/nodejs/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js:287:18
+    at FSReqCallback.oncomplete (fs.js:169:5)
+</code></pre>
+<p>&#x6253;&#x5F00;polyfills.js&#x6587;&#x4EF6;&#xFF0C;&#x627E;&#x5230;&#x8FD9;&#x4E2A;&#x51FD;&#x6570;</p>
+<pre><code class="lang-js">function statFix (orig) {
+  if (!orig) return orig
+  // Older versions of Node erroneously returned signed integers for
+  // uid + gid.
+  return function (target, cb) {
+    return orig.call(fs, target, function (er, stats) {
+      if (!stats) return cb.apply(this, arguments)
+      if (stats.uid &amp;lt; 0) stats.uid &amp;#43;&amp;#61; 0x100000000
+      if (stats.gid &amp;lt; 0) stats.gid &amp;#43;&amp;#61; 0x100000000
+      if (cb) cb.apply(this, arguments)
+    })
+  }
+</code></pre>
+<p>&#x5728;polyfills.js&#x6587;&#x4EF6;&#x4E2D;&#x6709;&#x8FDE;&#x7EED;&#x4E09;&#x6B21;&#x8C03;&#x7528;&#xFF0C;&#x5927;&#x6982;&#x5728;62-64&#x884C;&#xFF0C;&#x5C06;&#x5B83;&#x4EEC;&#x6CE8;&#x91CA;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// fs.stat = statFix(fs.stat)</span>
+<span class="hljs-comment">// fs.fstat = statFix(fs.fstat)</span>
+<span class="hljs-comment">// fs.lstat = statFix(fs.lstat)</span>
+</code></pre>
+<p>&#x6CE8;&#x91CA;&#x6389;&#x4E4B;&#x540E;&#xFF0C;&#x91CD;&#x65B0;&#x6267;&#x884C;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x6210;&#x529F;&#x521B;&#x5EFA;&#x9879;&#x76EE;&#x3002;<br>&#x521D;&#x59CB;&#x5316;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x5728;&#x6267;&#x884C;&#x76EE;&#x5F55;&#x4E2D;&#x751F;&#x6210;README.md &#x548C; SUMMARY.md &#x4E24;&#x4E2A;&#x6587;&#x4EF6;&#x3002;</p>
+<h1 id="&#x53C2;&#x8003;&#x8D44;&#x6599;"><a name="&#x53C2;&#x8003;&#x8D44;&#x6599;" class="plugin-anchor" href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x53C2;&#x8003;&#x8D44;&#x6599;</h1>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/34946169" target="_blank">&#x4F7F;&#x7528; Gitbook &#x6253;&#x9020;&#x4F60;&#x7684;&#x7535;&#x5B50;&#x4E66;-&#x6155;&#x8BFE;&#x7F51;</a>  </li>
+<li><a href="https://www.jianshu.com/p/e828afede8cc" target="_blank">iOS&#x81EA;&#x52A8;&#x5316;&#x6784;&#x5EFA; xcode-select: error-&#x738B;&#x5BB6;&#x5C0F;&#x96F7;</a>  </li>
+<li><a href="https://blog.csdn.net/bengofrank/article/details/120884189" target="_blank">Mac&#x5B89;&#x88C5;&#x548C;&#x4F7F;&#x7528;GitBook-&#x614E;&#x601D;&#x77E5;&#x884C;</a>  </li>
+<li><a href="https://blog.csdn.net/weixin_42349568/article/details/108414441" target="_blank">&#x5B89;&#x88C5;gitbook&#x7684;&#x4E00;&#x4E9B;&#x95EE;&#x9898;-&#x7B11;&#x9053;&#x4E09;&#x5343;</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 仓库介绍">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="安装node.html" class="navigation navigation-next " aria-label="Next page: 安装Node">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Gitbook安装使用","level":"2.1","depth":1,"next":{"title":"安装Node","level":"2.2","depth":1,"path":"other/安装node.md","ref":"other/安装node.md","articles":[]},"previous":{"title":"仓库介绍","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"splitter":{},"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"cyw","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"other/Gitbook.md","mtime":"2021-12-30T02:56:51.805Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-30T03:41:14.045Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
