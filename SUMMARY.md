@@ -4,3 +4,4 @@
 
 ### 搜索资料汇总
 * [Gitbook安装使用](other/Gitbook.md)
+* [安装Node](other/安装node.md)
