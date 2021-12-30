@@ -2,6 +2,7 @@
 
 # 确保脚本抛出遇到的错误
 set -e
+gitbook install 
 gitbook build
 cd _book 
 git init 
